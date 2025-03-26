@@ -254,7 +254,7 @@ def generate_helicorder(net, sta, loc, cha, start, end):
             color=['k', 'r', 'b'],
             show_y_UTC_label=True,
             one_tick_per_line=True,
-            size=(12, 6)
+            #size=(12, 6)
         )
 
         # Ajustar el tamaño del helicorder
