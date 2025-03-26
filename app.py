@@ -254,11 +254,11 @@ def generate_helicorder(net, sta, loc, cha, start, end):
             color=['k', 'r', 'b'],
             show_y_UTC_label=True,
             one_tick_per_line=True,
-            #size=(12, 6)
+            size=(12, 6)
         )
 
         # Ajustar el tamaño del helicorder
-        fig.set_size_inches(12, 4)
+        fig.set_size_inches(12, 6)
         logger.info("Gráfico helicorder generado correctamente")
 
         # Guardar el gráfico en memoria
