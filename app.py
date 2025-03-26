@@ -246,7 +246,7 @@ def generate_helicorder(net, sta, loc, cha, start, end):
 
         # Crear helicorder utilizando ObsPy
         logger.info("Generando gráfico helicorder...")
-        fig = plt.figure(figsize=(15, 10))
+        fig = plt.figure(figsize=(12, 6))
         
         st.plot(
             type="dayplot",
@@ -258,7 +258,7 @@ def generate_helicorder(net, sta, loc, cha, start, end):
             one_tick_per_line=True,
             fig=fig,  # Usar la figura creada
             show=False,  # No mostrar inmediatamente
-            size=(12, 6)
+            #size=(12, 6)
         )
 
         # Ajustar el tamaño del helicorder
